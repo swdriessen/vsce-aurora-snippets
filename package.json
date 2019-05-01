@@ -3,6 +3,13 @@
     "displayName": "Aurora Snippets",
     "description": "Snippets for creating xml files for Aurora.",
     "version": "0.0.1",
+    "icon": "images/icon.png",
+    "preview" : true,
+    "publisher": "swdriessen",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swdriessen/vsce-aurora-snippets"
+    },
     "engines": {
         "vscode": "^1.33.0"
     },
