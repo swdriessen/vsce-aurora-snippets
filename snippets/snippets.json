@@ -1,1 +1,115 @@
-{}
+{
+	"aurora:elements" : {
+		"prefix" : "aurora:elements",
+		"description" : "create elements file base structure",
+		"body" : [
+			"<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
+			"<elements>",
+			"\t<info>",
+			"\t\t<name>${1}</name>",
+			"\t\t<update version=\"0.0.1\">",
+			"\t\t\t<file name=\"${2:$TM_FILENAME}\" url=\"${3:https://raw.githubusercontent.com/aurorabuilder/elements/master}/${2:$TM_FILENAME}\" />",
+			"\t\t</update>",
+			"\t</info>",
+			"\t",
+			"\t$0",
+			"\t",
+			"</elements>"
+		]
+	},
+	"aurora:elements-noinfo" : {
+		"prefix" : "aurora:elements-noinfo",
+		"description" : "create elements file base structure without info block",
+		"body" : [
+			"<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
+			"<elements>",
+			"\t",
+			"\t$0",
+			"\t",
+			"</elements>"
+		]
+	},
+	"aurora:index" : {
+		"prefix" : "aurora:index",
+		"description" : "create index file base structure",
+		"body" : [
+			"<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
+			"<index>",
+			"\t<info>",
+			"\t\t<name>${1}</name>",
+			"\t\t<update version=\"0.0.1\">",
+			"\t\t\t<file name=\"$TM_FILENAME\" url=\"https://raw.githubusercontent.com/aurorabuilder/elements/master/${2}/$TM_FILENAME\" />",
+			"\t\t</update>",
+			"\t</info>",
+			"\t<files>",
+			"\t\t<file name=\"${3:filename}.xml\" url=\"https://raw.githubusercontent.com/aurorabuilder/elements/master/${2}/$TM_FILENAME_BASE/${3:filename}.xml\" />$0",
+			"\t</files>",
+			"</index>"
+		]
+	},
+	"aurora:todo" : {
+		"prefix" : "aurora:todo",
+		"body" : [
+			"<!-- todo: ${description} -->"
+		]
+	},
+	"aurora:element" : {
+		"prefix" : "aurora:element",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"${2:type}\" source=\"${3:source}\" id=\"ID_${3:source}_${2:type}_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>${5:description}</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description>${5:description}</description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
+	"aurora:element-sheet" : {
+		"prefix" : "aurora:element-sheet",
+		"body" : [
+			"<sheet>",
+			"\t<description>${1:description}</description>",
+			"</sheet>"
+		]
+	},
+	"aurora:df" : {
+		"prefix" : "aurora:df",
+		"body" : [
+			"display=\"false\""
+		]
+	},
+	"aurora:action" : {
+		"prefix" : "aurora:action",
+		"body" : [
+			"action=\"${1|Action,Bonus Action,Reaction|}\""
+		]
+	},
+	"aurora:usage" : {
+		"prefix" : "aurora:usage",
+		"body" : [
+			"usage=\"${usage}\""
+		]
+	},
+	"aurora:element-rules" : {
+		"prefix" : "aurora:element-rules",
+		"body" : [
+			"<rules>",
+			"\t$0",
+			"</rules>"
+		]
+	},
+	"aurora:grant" : {
+		"prefix" : "aurora:grant",
+		"body" : [
+			"<grant type=\"${1:type}\" id=\"${2:id}\" />"
+		]
+	},
+	"aurora:level" : {
+		"prefix" : "aurora:level",
+		"body" : [
+			"level=\"${level}\""
+		]
+	}
+}

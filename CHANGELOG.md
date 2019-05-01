@@ -2,6 +2,6 @@
 
 All notable changes to the "aurora-snippets" extension will be documented in this file.
 
-## [Unreleased]
+## [Preview]
 
 - initial work in progress release

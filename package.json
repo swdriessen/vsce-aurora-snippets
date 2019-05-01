@@ -3,7 +3,7 @@
     "displayName": "Aurora Snippets",
     "description": "Snippets for creating xml files for Aurora.",
     "version": "0.0.1",
-    "icon": "images/icon.png",
+    "icon": "icon.png",
     "preview" : true,
     "publisher": "swdriessen",
     "repository": {
@@ -21,6 +21,10 @@
             {
                 "language": "xml",
                 "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/proficiencies.json"
             }
         ]
     }

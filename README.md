@@ -1,15 +1,22 @@
 # aurora-snippets
 
-Snippets extension for creating xml files for Aurora using Visual Studio Code. 
+> PREVIEW
+
+Snippets extension for creating xml files for Aurora using Visual Studio Code.
+
+Snippets start with **aurora:** and work in xml files.
 
 ## Features
 
-> Tip: WIP
+- populate xml file with base structure for index or elements file
 
-## Release Notes
+- grant skill proficiencies
+- grant armor proficiencies
 
-Users appreciate release notes as you update your extension.
+<!-- ## Release Notes
 
-## [Unreleased]
+Users appreciate release notes as you update your extension. -->
+
+## [Preview]
 
 initial work in progress release
