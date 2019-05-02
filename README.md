@@ -6,6 +6,8 @@ Snippets extension for creating xml files for Aurora using Visual Studio Code.
 
 Snippets start with **aurora:** and work in xml files (set xml language mode on index files).
 
+![Example](images/features.gif)
+
 ## Features
 
 - populate file with base structure for index or elements file
