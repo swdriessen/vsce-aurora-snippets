@@ -132,6 +132,82 @@
 		"body" : [
 			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS\" />"
 		]
+	},
+
+	"aurora:grant-proficiency-weapon-simple" : {
+		"prefix" : "aurora:grant-proficiency-weapon-simple",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS\" />"
+		]
+	},
+	"aurora:grant-proficiency-weapon-martial" : {
+		"prefix" : "aurora:grant-proficiency-weapon-martial",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS\" />"
+		]
+	},
+	"aurora:grant-proficiency-weapon-simple-melee" : {
+		"prefix" : "aurora:grant-proficiency-weapon-simple-melee",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS\" />"
+		]
+	},
+	"aurora:grant-proficiency-weapon-martial-melee" : {
+		"prefix" : "aurora:grant-proficiency-weapon-martial-melee",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS\" />"
+		]
+	},
+	"aurora:grant-proficiency-weapon-simple-ranged" : {
+		"prefix" : "aurora:grant-proficiency-weapon-simple-ranged",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS\" />"
+		]
+	},
+	"aurora:grant-proficiency-weapon-martial-ranged" : {
+		"prefix" : "aurora:grant-proficiency-weapon-martial-ranged",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS\" />"
+		]
+	},
+
+
+
+
+	"aurora:grant-proficiency-save-str" : {
+		"prefix" : "aurora:grant-save-str",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_STRENGTH\" />"
+		]
+	},
+	"aurora:grant-proficiency-save-dex" : {
+		"prefix" : "aurora:grant-save-dex",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_DEXTERITY\" />"
+		]
+	},
+	"aurora:grant-proficiency-save-con" : {
+		"prefix" : "aurora:grant-save-con",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION\" />"
+		]
+	},
+	"aurora:grant-proficiency-save-int" : {
+		"prefix" : "aurora:grant-save-int",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE\" />"
+		]
+	},
+	"aurora:grant-proficiency-save-wis" : {
+		"prefix" : "aurora:grant-save-wis",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_WISDOM\" />"
+		]
+	},
+	"aurora:grant-proficiency-save-cha" : {
+		"prefix" : "aurora:grant-save-cha",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CHARISMA\" />"
+		]
 	}
-	
 }

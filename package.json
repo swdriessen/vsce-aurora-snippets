@@ -25,6 +25,14 @@
             {
                 "language": "xml",
                 "path": "./snippets/proficiencies.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/types.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/conditions.json"
             }
         ]
     }

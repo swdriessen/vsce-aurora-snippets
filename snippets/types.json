@@ -1,0 +1,27 @@
+{	
+	"aurora:element-language" : {
+		"prefix" : "aurora:element-spell",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Spell\" source=\"${2:source}\" id=\"ID_${3:author_source}_SPELL_${1:name}\">",
+			"\t<supports>${supports}</supports>",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"keywords\"></set>",
+			"\t\t<set name=\"level\">${4:level}</set>",
+			"\t\t<set name=\"school\">${5|Evocation,Conjuration,Enchantment,Transmutation,Illusion,Necromancy,Abjuration,Divination|}</set>",
+			"\t\t<set name=\"time\">${6:time}</set>",
+			"\t\t<set name=\"duration\">${7:duration}</set>",
+			"\t\t<set name=\"range\">${8:range}</set>",
+			"\t\t<set name=\"hasVerbalComponent\">${9|true,false|}</set>",
+			"\t\t<set name=\"hasSomaticComponent\">${10|true,false|}</set>",
+			"\t\t<set name=\"hasMaterialComponent\">${11|true,false|}</set>",
+			"\t\t<set name=\"materialComponent\">${12:component}</set>",
+			"\t\t<set name=\"isConcentration\">${13|false,true|}</set>",
+			"\t\t<set name=\"isRitual\">${14|false,true|}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	}	
+}

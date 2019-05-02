@@ -4,14 +4,17 @@
 
 Snippets extension for creating xml files for Aurora using Visual Studio Code.
 
-Snippets start with **aurora:** and work in xml files.
+Snippets start with **aurora:** and work in xml files (set xml language mode on index files).
 
 ## Features
 
-- populate xml file with base structure for index or elements file
+- populate file with base structure for index or elements file
+- todo comment snippet
+- basic element snippet
+- grant simple skill, weapon, armor, saving throw proficiencies
+- grant resistance conditions
+- spell snippet
 
-- grant skill proficiencies
-- grant armor proficiencies
 
 <!-- ## Release Notes
 
