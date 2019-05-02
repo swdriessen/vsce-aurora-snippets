@@ -2,9 +2,9 @@
     "name": "aurora-snippets",
     "displayName": "Aurora Snippets",
     "description": "Snippets for creating xml files for Aurora.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "icon.png",
-    "preview" : true,
+    "preview": true,
     "publisher": "swdriessen",
     "repository": {
         "type": "git",
