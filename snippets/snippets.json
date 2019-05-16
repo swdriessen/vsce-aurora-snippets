@@ -155,7 +155,7 @@
 	"aurora:table" : {
 		"prefix" : "aurora:table",
 		"body" : [
-			"</table>",
+			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>${1:column1}</td><td>${2:column2}</td></tr>",
 			"\t</thead>",
@@ -173,7 +173,7 @@
 	"aurora:table-d8" : {
 		"prefix" : "aurora:table-d8",
 		"body" : [
-			"</table>",
+			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d8</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
