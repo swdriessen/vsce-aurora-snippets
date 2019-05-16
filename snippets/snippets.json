@@ -140,10 +140,22 @@
 			"<select type=\"${1:type}\" name=\"${2:name}\" supports=\"${3:supports}\" />"
 		]
 	},
+	"aurora:stat" : {
+		"prefix" : "aurora:stat",
+		"body" : [
+			"<stat name=\"${1:name}\" value=\"${2:value}\" />"
+		]
+	},
 	"aurora:level" : {
 		"prefix" : "aurora:level",
 		"body" : [
 			"level=\"${level}\""
+		]
+	},
+	"aurora:bonus" : {
+		"prefix" : "aurora:bonus",
+		"body" : [
+			"bonus=\"${bonus}\""
 		]
 	},
 	"aurora:spellcasting-attribute" : {
