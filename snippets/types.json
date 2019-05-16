@@ -1,5 +1,28 @@
-{	
-	"aurora:element-language" : {
+{
+	"aurora:element-source" : {
+		"prefix" : "aurora:element-source",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Source\" source=\"Core\" id=\"ID_${3:author_source}_SOURCE_${1:name}\">",
+			"\t<description>",
+			"\t\t<![CDATA[<p>$0</p>]]>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"abbreviation\">${5}</set>",
+			"\t\t<set name=\"url\">${6}</set>",
+			"\t\t<set name=\"image\">${7}</set>",
+			"\t\t<set name=\"author\" abbreviation=\"${8:WOTC}\" url=\"${9:http://dnd.wizards.com}\">${10:Wizards of the Coast}</set>",
+			"\t\t<set name=\"official\">${11|false,true|}</set>",
+			"\t\t<set name=\"supplement\">${12|false,true|}</set>",
+			"\t\t<set name=\"playtest\">${13|false,true|}</set>",
+			"\t\t<set name=\"third-party\">${14|false,true|}</set>",
+			"\t\t<set name=\"homebrew\">${15|false,true|}</set>",
+			"\t\t<set name=\"league\">${16|false,true|}</set>",
+			"\t\t<set name=\"release\">${17:20190521}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-spell" : {
 		"prefix" : "aurora:element-spell",
 		"body" : [
 			"<element name=\"${1:name}\" type=\"Spell\" source=\"${2:source}\" id=\"ID_${3:author_source}_SPELL_${1:name}\">",
@@ -23,5 +46,92 @@
 			"\t</setters>",
 			"</element>"
 		]
-	}	
+	},
+	"aurora:element-language" : {
+		"prefix" : "aurora:element-language",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Language\" source=\"${2:source}\" id=\"ID_${3:author_source}_LANGUAGE_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>Typically spoken by $0.</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"exotic\">${5|false,true|}</set>",
+			"\t\t<set name=\"speakers\">${6}</set>",
+			"\t\t<set name=\"script\">${7}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-background" : {
+		"prefix" : "aurora:element-background",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Background\" source=\"${2:source}\" id=\"ID_${3:author_source}_BACKGROUND_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\"></p>",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong>Skill Proficiencies:</strong> </li>",
+			"\t\t\t<li><strong>Tool Proficiencies:</strong> </li>",
+			"\t\t\t<li><strong>Languages:</strong> </li>",
+			"\t\t\t<li><strong>Equipment:</strong> </li>",
+			"\t\t</ul>",
+			"\t\t<div element=\"ID_BACKGROUND_FEATURE_\" />",
+			"\t\t<h5>SUGGESTED CHARACTERISTICS</h5>",
+			"\t\t<p></p>",
+			"\t</description>",
+			"\t<rules>",
+			"\t\t<grant type=\"Background Feature\" id=\"ID_BACKGROUND_FEATURE_\" requirements=\"!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE\"/>",
+			"\t\t<select type=\"Background Feature\" name=\"Variant Feature\" supports=\"Optional Background Feature\" optional=\"true\" />",
+			"\t\t<select type=\"List\" name=\"Personality Trait\" number=\"2\">",
+			"\t\t\t<item id=\"1\"></item>",
+			"\t\t\t<item id=\"2\"></item>",
+			"\t\t\t<item id=\"3\"></item>",
+			"\t\t\t<item id=\"4\"></item>",
+			"\t\t\t<item id=\"5\"></item>",
+			"\t\t\t<item id=\"6\"></item>",
+			"\t\t\t<item id=\"7\"></item>",
+			"\t\t\t<item id=\"8\"></item>",
+			"\t\t</select>",
+			"\t\t<select type=\"List\" name=\"Ideal\">",
+			"\t\t\t<item id=\"1\"></item>",
+			"\t\t\t<item id=\"2\"></item>",
+			"\t\t\t<item id=\"3\"></item>",
+			"\t\t\t<item id=\"4\"></item>",
+			"\t\t\t<item id=\"5\"></item>",
+			"\t\t\t<item id=\"6\"></item>",
+			"\t\t</select>",
+			"\t\t<select type=\"List\" name=\"Bond\">",
+			"\t\t\t<item id=\"1\"></item>",
+			"\t\t\t<item id=\"2\"></item>",
+			"\t\t\t<item id=\"3\"></item>",
+			"\t\t\t<item id=\"4\"></item>",
+			"\t\t\t<item id=\"5\"></item>",
+			"\t\t\t<item id=\"6\"></item>",
+			"\t\t</select>",
+			"\t\t<select type=\"List\" name=\"Flaw\">",
+			"\t\t\t<item id=\"1\"></item>",
+			"\t\t\t<item id=\"2\"></item>",
+			"\t\t\t<item id=\"3\"></item>",
+			"\t\t\t<item id=\"4\"></item>",
+			"\t\t\t<item id=\"5\"></item>",
+			"\t\t\t<item id=\"6\"></item>",
+			"\t\t</select>",
+			"\t</rules>",
+			"</element>"
+		]
+	},
+	"aurora:element-backgroundfeature" : {
+		"prefix" : "aurora:element-backgroundfeature",
+		"body" : [
+			"<element name=\"Feature: ${1:name}\" type=\"Background Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_BACKGROUND_FEATURE_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<sheet alt=\"${1:name}\">",
+			"\t\t<description></description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	}
 }
+

@@ -46,6 +46,12 @@
 			"\t</files>",
 			"</index>"
 		]
+	},	
+	"aurora:file-entry" : {
+		"prefix" : "aurora:file-entry",
+		"body" : [
+			"<file name=\"${1:name}\" url=\"${2:baseurl}/${1:name}\" />"
+		]
 	},
 	"aurora:todo" : {
 		"prefix" : "aurora:todo",
@@ -72,6 +78,28 @@
 			"<sheet>",
 			"\t<description>${1:description}</description>",
 			"</sheet>"
+		]
+	},
+	"aurora:div-element" : {
+		"prefix" : "aurora:div-element",
+		"body" : [
+			"<div element=\"${1:id}\" />"
+		]
+	},
+	"aurora:spellcasting" : {
+		"prefix" : "aurora:spellcasting",
+		"body" : [
+			"<spellcasting name=\"${1:spellcaster}\" ability=\"${2|Intelligence,Wisdom,Charisma|}\" prepare=\"${3|false,true|}\">",
+			"\t<list>${1:spellcaster}</list>",
+			"</spellcasting>"
+		]
+	},
+	"aurora:spellcasting-extend" : {
+		"prefix" : "aurora:spellcasting-extend",
+		"body" : [
+			"<spellcasting name=\"${1:spellcaster}\" extend=\"true\">",
+			"\t<extend>${2:extend}</extend>",
+			"</spellcasting>"
 		]
 	},
 	"aurora:df" : {
@@ -106,10 +134,64 @@
 			"<grant type=\"${1:type}\" id=\"${2:id}\" />"
 		]
 	},
+	"aurora:select" : {
+		"prefix" : "aurora:select",
+		"body" : [
+			"<select type=\"${1:type}\" name=\"${2:name}\" supports=\"${3:supports}\" />"
+		]
+	},
 	"aurora:level" : {
 		"prefix" : "aurora:level",
 		"body" : [
 			"level=\"${level}\""
 		]
+	},
+	"aurora:spellcasting-attribute" : {
+		"prefix" : "aurora:spellcasting-attribute",
+		"body" : [
+			"spellcasting=\"${spellcaster}\""
+		]
+	},	
+	"aurora:table" : {
+		"prefix" : "aurora:table",
+		"body" : [
+			"</table>",
+			"\t<thead>",
+			"\t\t<tr><td>${1:column1}</td><td>${2:column2}</td></tr>",
+			"\t</thead>",
+			"\t<tr><td>data1</td><td>data1</td></tr>",
+			"\t<tr><td>data2</td><td>data2</td></tr>",
+			"\t<tr><td>data3</td><td>data3</td></tr>",
+			"\t<tr><td>data4</td><td>data4</td></tr>",
+			"\t<tr><td>data5</td><td>data5</td></tr>",
+			"\t<tr><td>data6</td><td>data6</td></tr>",
+			"\t<tr><td>data7</td><td>data7</td></tr>",
+			"\t<tr><td>data8</td><td>data8</td></tr>",
+			"</table>"
+		]
+	},
+	"aurora:table-d8" : {
+		"prefix" : "aurora:table-d8",
+		"body" : [
+			"</table>",
+			"\t<thead>",
+			"\t\t<tr><td>d8</td><td>${1:column2}</td></tr>",
+			"\t</thead>",
+			"\t<tr><td>1</td><td>data1</td></tr>",
+			"\t<tr><td>2</td><td>data2</td></tr>",
+			"\t<tr><td>3</td><td>data3</td></tr>",
+			"\t<tr><td>4</td><td>data4</td></tr>",
+			"\t<tr><td>5</td><td>data5</td></tr>",
+			"\t<tr><td>6</td><td>data6</td></tr>",
+			"\t<tr><td>7</td><td>data7</td></tr>",
+			"\t<tr><td>8</td><td>data8</td></tr>",
+			"</table>"
+		]
 	}
+
+
+
+
+
+
 }
