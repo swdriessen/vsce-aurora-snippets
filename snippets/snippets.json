@@ -128,6 +128,14 @@
 			"</rules>"
 		]
 	},
+	"aurora:element-setters" : {
+		"prefix" : "aurora:element-setters",
+		"body" : [
+			"<setters>",
+			"\t$0",
+			"</setters>"
+		]
+	},
 	"aurora:grant" : {
 		"prefix" : "aurora:grant",
 		"body" : [
@@ -199,11 +207,30 @@
 			"\t<tr><td>8</td><td>data8</td></tr>",
 			"</table>"
 		]
+	},
+	"aurora:setters-names" : {
+		"prefix" : "aurora:setters-names",
+		"body" : [
+			"<set name=\"names\" type=\"male\">${1:male}</set>",
+			"<set name=\"names\" type=\"female\">${2:female}</set>",
+			"<set name=\"names-format\">{{name}}</set>"
+		]
+	},
+	"aurora:p-feature" : {
+		"prefix" : "aurora:p-feature",
+		"body" : [
+			"<p class=\"indent\"><strong><em>${1:feature}.</em></strong> ${2:description}</p>"
+		]
+	},
+	"aurora:h4" : {
+		"prefix" : "aurora:h4",
+		"body" : [
+			"<h4>${1:heading}</h4>",
+			"<p>$0</p>",
+			"<p class=\"indent\"></p>"
+		]
 	}
 
 
-
-
-
-
+	
 }
