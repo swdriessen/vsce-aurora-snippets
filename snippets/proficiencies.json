@@ -107,8 +107,6 @@
 			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_SURVIVAL\" />"
 		]
 	},
-
-	
 	"aurora:grant-proficiency-armor-light" : {
 		"prefix" : "aurora:grant-proficiency-armor-light",
 		"body" : [

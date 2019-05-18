@@ -1,0 +1,17 @@
+{
+	"aurora:specific-fighting-style" : {
+		"prefix" : "aurora:specific-fighting-style",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Class Feature\" source=\"${2:source}\" id=\"ID_ABBR_CLASS_FEATURE_FIGHTING_STYLE_${1:name}\">",
+			"\t<supports>Fighting Style</supports>",
+			"\t<description>",
+			"\t\t<p>${description}</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description>${description}</description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	}
+}
+

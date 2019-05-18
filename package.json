@@ -33,6 +33,10 @@
             {
                 "language": "xml",
                 "path": "./snippets/conditions.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/specifics.json"
             }
         ]
     }
