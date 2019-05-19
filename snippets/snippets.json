@@ -142,6 +142,12 @@
 			"<grant type=\"${1:type}\" id=\"${2:id}\" />"
 		]
 	},
+	"aurora:grant-class-feature" : {
+		"prefix" : "aurora:grant-class-feature",
+		"body" : [
+			"<grant type=\"${1:type}\" id=\"${2:id}\" level=\"${3:level}\" />"
+		]
+	},
 	"aurora:select" : {
 		"prefix" : "aurora:select",
 		"body" : [

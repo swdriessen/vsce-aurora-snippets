@@ -170,8 +170,6 @@
 	},
 
 
-
-
 	"aurora:grant-proficiency-save-str" : {
 		"prefix" : "aurora:grant-save-str",
 		"body" : [
@@ -207,5 +205,158 @@
 		"body" : [
 			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CHARISMA\" />"
 		]
+	},
+	
+	
+	"aurora:grant-proficiency-alchemists-supplies" : {
+		"prefix" : "aurora:grant-proficiency-alchemists-supplies",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES\" />"
+		]
+	},
+	"aurora:grant-proficiency-brewers-supplies" : {
+		"prefix" : "aurora:grant-proficiency-brewers-supplies",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES\" />"
+		]
+	},
+	"aurora:grant-proficiency-calligraphers-supplies" : {
+		"prefix" : "aurora:grant-proficiency-calligraphers-supplies",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES\" />"
+		]
+	},
+	"aurora:grant-proficiency-carpenters-tools" : {
+		"prefix" : "aurora:grant-proficiency-carpenters-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-cartographers-tools" : {
+		"prefix" : "aurora:grant-proficiency-cartographers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-cobblers-tools" : {
+		"prefix" : "aurora:grant-proficiency-cobblers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-cooks-utensils" : {
+		"prefix" : "aurora:grant-proficiency-cooks-utensils",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS\" />"
+		]
+	},
+	"aurora:grant-proficiency-glassblowers-tools" : {
+		"prefix" : "aurora:grant-proficiency-glassblowers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-jewelers-tools" : {
+		"prefix" : "aurora:grant-proficiency-jewelers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-leatherworkers-tools" : {
+		"prefix" : "aurora:grant-proficiency-leatherworkers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-masons-tools" : {
+		"prefix" : "aurora:grant-proficiency-masons-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-painters-supplies" : {
+		"prefix" : "aurora:grant-proficiency-painters-supplies",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES\" />"
+		]
+	},
+	"aurora:grant-proficiency-potters-tools" : {
+		"prefix" : "aurora:grant-proficiency-potters-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-smiths-tools" : {
+		"prefix" : "aurora:grant-proficiency-smiths-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-tinkers-tools" : {
+		"prefix" : "aurora:grant-proficiency-tinkers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-weavers-tools" : {
+		"prefix" : "aurora:grant-proficiency-weavers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-woodcarvers-tools" : {
+		"prefix" : "aurora:grant-proficiency-woodcarvers-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-disguise-kit" : {
+		"prefix" : "aurora:grant-proficiency-disguise-kit",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT\" />"
+		]
+	},
+	"aurora:grant-proficiency-forgery-kit" : {
+		"prefix" : "aurora:grant-proficiency-forgery-kit",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT\" />"
+		]
+	},
+	"aurora:grant-proficiency-herbalism-kit" : {
+		"prefix" : "aurora:grant-proficiency-herbalism-kit",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT\" />"
+		]
+	},
+	"aurora:grant-proficiency-poisoners-kit" : {
+		"prefix" : "aurora:grant-proficiency-poisoners-kit",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT\" />"
+		]
+	},
+	"aurora:grant-proficiency-navigators-tools" : {
+		"prefix" : "aurora:grant-proficiency-navigators-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-thieves-tools" : {
+		"prefix" : "aurora:grant-proficiency-thieves-tools",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS\" />"
+		]
+	},
+	"aurora:grant-proficiency-vehicles-land" : {
+		"prefix" : "aurora:grant-proficiency-vehicles-land",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND\" />"
+		]
+	},
+	"aurora:grant-proficiency-vehicles-water" : {
+		"prefix" : "aurora:grant-proficiency-vehicles-water",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER\" />"
+		]
 	}
+
 }

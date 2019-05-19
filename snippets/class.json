@@ -1,0 +1,59 @@
+{
+	"aurora:class-description" : {
+		"prefix" : "aurora:class-description",
+		"body" : [
+			"<p>$0</p>",
+			"<h4>${1:heading}</h4>",
+			"<p>$0</p>",
+			"<p class=\"indent\"></p>",
+			"<h4>${2:heading}</h4>",
+			"<p>$0</p>",
+			"<p class=\"indent\"></p>",
+			"<h4>CREATING A ${3:class}</h4>",
+			"<p>$0</p>",
+			"<h5>QUICK BUILD</h5>",
+			"<p></p>",
+			"<h2>CLASS FEATURES</h2>",
+			"<p>As an ${3:class}, you gain the following class features.</p>",
+			"<h5>HIT POINTS</h5>",
+			"<ul class=\"unstyled\">",
+			"\t<li><strong>Hit Dice:</strong> 1d${4:8} per ${3:class} level</li>",
+			"\t<li><strong>Hit Points at 1st Level:</strong> ${4:8} + your Constitution modifier</li>",
+			"\t<li><strong>Hit Points at Higher Levels:</strong> 1d${4:8} (or 5) + your Constitution modifier per ${3:class} level after 1st</li>",
+			"</ul>",
+			"<h5>PROFICIENCIES</h5>",
+			"<ul class=\"unstyled\">",
+			"\t<li><strong>Armor:</strong> </li>",
+			"\t<li><strong>Weapons:</strong> </li>",
+			"\t<li><strong>Tools:</strong> </li>",
+			"</ul>",
+			"<ul class=\"unstyled\">",
+			"\t<li><strong>Saving Throws:</strong> </li>",
+			"\t<li><strong>Skills:</strong> </li>",
+			"</ul>",
+			"<h5>EQUIPMENT</h5>",
+			"<p>You start with the following equipment, in addition to the equipment granted by your background:</p>",
+			"<ul>",
+			"\t<li></li>",
+			"\t<li></li>",
+			"\t<li></li>",
+			"\t<li></li>",
+			"</ul>"
+		]
+	},
+	"aurora:multiclass" : {
+		"prefix" : "aurora:multiclass",
+		"body" : [
+			"<multiclass id=\"${1:multiclass_id}\">",
+			"\t<prerequisite>Intelligence 13</prerequisite>",
+			"\t<requirements>[int:13]</requirements>",
+			"\t<setters>",
+			"\t\t<set name=\"multiclass proficiencies\"></set>",
+			"\t</setters>",
+			"\t<rules>",
+			"\t\t<grant type=\"Grants\" id=\"ID_INTERNAL_GRANT_MULTICLASS\" />",
+			"\t</rules>",
+			"</multiclass>"
+		]
+	}
+}
