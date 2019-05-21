@@ -175,7 +175,7 @@
 	"aurora:stat:min1" : {
 		"prefix" : "aurora:stat:min1",
 		"body" : [
-			"<stat name=\"${1:name}\" value=\"1\" bonus=\"${3:base}\" />"
+			"<stat name=\"${1:name}\" value=\"1\" bonus=\"${3:base}\" />",
 			"<stat name=\"${1:name}\" value=\"${2:value}\" bonus=\"${3:base}\" />"
 		]
 	},
