@@ -210,7 +210,7 @@
 		"prefix" : "aurora:element-archetype",
 		"body" : [
 			"<element name=\"${1:name}\" type=\"Archetype\" source=\"${2:source}\" id=\"ID_${3:author_source}_ARCHETYPE_${1:name}\">",
-			"\t<supports>${4}</supports>",
+			"\t<supports>${4|Primal Path,Bard College,Divine Domain,Druid Circle,Martial Archetype,Monastic Tradition,Sacred Oath,Ranger Archetype,Roguish Archetype,Sorcerous Origin,Otherworldly Patron,Arcane Tradition|}</supports>",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t\t<p class=\"indent\"></p>",
@@ -224,11 +224,11 @@
 			"\t\t<description></description>",
 			"\t</sheet>",
 			"\t<rules>",
-			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
-			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
-			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
-			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
-			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
 			"\t</rules>",
 			"</element>"
 		]
