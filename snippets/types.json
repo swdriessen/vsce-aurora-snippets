@@ -179,8 +179,68 @@
 		"body" : [
 			"<set name=\"keywords\">$0</set>"
 		]
+	},
+	"aurora:element-class-feature" : {
+		"prefix" : "aurora:element-class-feature",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Class Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_CLASS_FEATURE_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description></description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
+	"aurora:element-archetype-feature" : {
+		"prefix" : "aurora:element-archetype-feature",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Archetype Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_ARCHETYPE_FEATURE_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description></description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
+	"aurora:element-archetype" : {
+		"prefix" : "aurora:element-archetype",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Archetype\" source=\"${2:source}\" id=\"ID_${3:author_source}_ARCHETYPE_${1:name}\">",
+			"\t<supports>${4}</supports>",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\"></p>",
+			"\t\t<div element=\"ID____\" />",
+			"\t\t<div element=\"ID____\" />",
+			"\t\t<div element=\"ID____\" />",
+			"\t\t<div element=\"ID____\" />",
+			"\t\t<div element=\"ID____\" />",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description></description>",
+			"\t</sheet>",
+			"\t<rules>",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
+			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"3\" />",
+			"\t</rules>",
+			"</element>"
+		]
+	},
+	"aurora:spellcasting-center-description" : {
+		"prefix" : "aurora:spellcasting-center-description",
+		"body" : [
+			"<center>",
+			"\t<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your ${1|Intelligence,Wisdom,Charisma|} modifier</p>",
+			"\t<p><strong>Spell attack modifier</strong> = your proficiency bonus + your ${1|Intelligence,Wisdom,Charisma|} modifier</p>",
+			"</center>"
+		]
 	}
-
-	
 }
 

@@ -136,6 +136,12 @@
 			"</setters>"
 		]
 	},
+	"aurora:setter" : {
+		"prefix" : "aurora:setter",
+		"body" : [
+			"<set name=\"${name}\">$0</set>"
+		]
+	},
 	"aurora:grant" : {
 		"prefix" : "aurora:grant",
 		"body" : [
@@ -145,7 +151,13 @@
 	"aurora:grant-class-feature" : {
 		"prefix" : "aurora:grant-class-feature",
 		"body" : [
-			"<grant type=\"${1:type}\" id=\"${2:id}\" level=\"${3:level}\" />"
+			"<grant type=\"${1:Class Feature}\" id=\"${2:id}\" level=\"${3:level}\" />"
+		]
+	},
+	"aurora:grant-archetype-feature" : {
+		"prefix" : "aurora:grant-archetype-feature",
+		"body" : [
+			"<grant type=\"${1:Archetype Feature}\" id=\"${2:id}\" level=\"${3:level}\" />"
 		]
 	},
 	"aurora:select" : {
@@ -158,6 +170,13 @@
 		"prefix" : "aurora:stat",
 		"body" : [
 			"<stat name=\"${1:name}\" value=\"${2:value}\" />"
+		]
+	},
+	"aurora:stat:min1" : {
+		"prefix" : "aurora:stat:min1",
+		"body" : [
+			"<stat name=\"${1:name}\" value=\"1\" bonus=\"${3:base}\" />"
+			"<stat name=\"${1:name}\" value=\"${2:value}\" bonus=\"${3:base}\" />"
 		]
 	},
 	"aurora:level" : {
@@ -277,6 +296,18 @@
 		"body" : [
 			"<stat name=\"ac:${lowecase_name}\" value=\"${value}\" />",
 			"<stat name=\"ac:calculation\" value=\"ac:${lowecase_name}\" bonus=\"calculation\" />"
+		]
+	},
+	"aurora:element-supports" : {
+		"prefix" : "aurora:element-supports",
+		"body" : [
+			"<supports>$0</supports>"
+		]
+	},
+	"aurora:element-supports-archetype" : {
+		"prefix" : "aurora:element-supports-archetype",
+		"body" : [
+			"<supports>${1|Primal Path,Bard College,Divine Domain,Druid Circle,Martial Archetype,Monastic Tradition,Sacred Oath,Ranger Archetype,Roguish Archetype,Sorcerous Origin,Otherworldly Patron,Arcane Tradition|}</supports>"
 		]
 	}
 }
