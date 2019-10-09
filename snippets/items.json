@@ -1,0 +1,35 @@
+{
+	"aurora:element-item" : {
+		"prefix" : "aurora:element-item",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_ITEM_GEAR_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Adventuring Gear|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-item-treasure" : {
+		"prefix" : "aurora:element-item-treasure",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_ITEM_TREASURE_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Treasure|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"stackable\">true</set>",
+			"\t\t<set name=\"valuable\">true</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	}
+}
+

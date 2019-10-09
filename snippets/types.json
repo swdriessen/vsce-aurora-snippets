@@ -153,13 +153,13 @@
 	"aurora:item-setter-attunable" : {
 		"prefix" : "aurora:item-setter-attunable",
 		"body" : [
-			"<set name=\"attunable\">true</set>"
+			"<set name=\"attunement\">true</set>"
 		]
 	},
 	"aurora:item-setter-attunable-addition" : {
 		"prefix" : "aurora:item-setter-attunable-addition",
 		"body" : [
-			"<set name=\"attunable\" addition=\"${by a wizard}\">true</set>"
+			"<set name=\"attunement\" addition=\"${by a wizard}\">true</set>"
 		]
 	},
 	"aurora:item-setter-keywords" : {
@@ -172,12 +172,6 @@
 		"prefix" : "aurora:item-setter-enhancement",
 		"body" : [
 			"<set name=\"enhancement\">${1}</set>"
-		]
-	},
-	"aurora:item-setter-keywords" : {
-		"prefix" : "aurora:item-setter-keywords",
-		"body" : [
-			"<set name=\"keywords\">$0</set>"
 		]
 	},
 	"aurora:element-class-feature" : {
