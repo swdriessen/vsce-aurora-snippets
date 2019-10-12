@@ -80,6 +80,14 @@
 			"</sheet>"
 		]
 	},
+	"aurora:element-equipment" : {
+		"prefix" : "aurora:element-equipment",
+		"body" : [
+			"<equipment>",
+			"\t<description>${1:description}</description>",
+			"</equipment>"
+		]
+	},
 	"aurora:div-element" : {
 		"prefix" : "aurora:div-element",
 		"body" : [
@@ -106,6 +114,12 @@
 		"prefix" : "aurora:df",
 		"body" : [
 			"display=\"false\""
+		]
+	},
+	"aurora:compendium:df" : {
+		"prefix" : "aurora:compendium:df",
+		"body" : [
+			"<compendium display=\"false\" />"
 		]
 	},
 	"aurora:action" : {
@@ -359,6 +373,12 @@
 		"body" : [
 			"<stat name=\"ac:${lowecase_name}\" value=\"${value}\" />",
 			"<stat name=\"ac:calculation\" value=\"ac:${lowecase_name}\" bonus=\"calculation\" />"
+		]
+	},
+	"aurora:stat-ac-misc" : {
+		"prefix" : "aurora:stat-ac-misc",
+		"body" : [
+			"<stat name=\"ac:misc\" value=\"${1|1,2,3|}\" />"
 		]
 	},
 	"aurora:element-supports" : {

@@ -221,6 +221,11 @@
 		"body" : [
 			"<set name=\"enhancement\">${1}</set>"
 		]
+	},
+	"aurora:statistic-ac-shield" : {
+		"prefix" : "aurora:statistic-enhancement-shield",
+		"body" : [
+			"<stat name=\"ac:shield\" value=\"${1|1,2,3|}\" bonus=\"enhancement\" />"
+		]
 	}
 }
-
