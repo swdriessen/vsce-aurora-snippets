@@ -62,6 +62,19 @@
 			"</element>"
 		]
 	},
+	"aurora:element-feat" : {
+		"prefix" : "aurora:element-feat",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Feat\" source=\"${2:source}\" id=\"ID_${3:author_source}_FEAT_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description></description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
 	"aurora:element-background" : {
 		"prefix" : "aurora:element-background",
 		"body" : [
@@ -131,47 +144,6 @@
 			"\t\t<description></description>",
 			"\t</sheet>",
 			"</element>"
-		]
-	},
-	"aurora:element-magic-item" : {
-		"prefix" : "aurora:element-magic-item",
-		"body" : [
-			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
-			"\t<description>",
-			"\t\t<p>$0</p>",
-			"\t</description>",
-			"\t<setters>",
-			"\t\t<set name=\"category\">${6|Wondrous Items|}</set>",
-			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
-			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
-			"\t\t<set name=\"type\">${9|Wondrous Item|}</set>",
-			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
-			"\t</setters>",
-			"</element>"
-		]
-	},
-	"aurora:item-setter-attunable" : {
-		"prefix" : "aurora:item-setter-attunable",
-		"body" : [
-			"<set name=\"attunement\">true</set>"
-		]
-	},
-	"aurora:item-setter-attunable-addition" : {
-		"prefix" : "aurora:item-setter-attunable-addition",
-		"body" : [
-			"<set name=\"attunement\" addition=\"${by a wizard}\">true</set>"
-		]
-	},
-	"aurora:item-setter-keywords" : {
-		"prefix" : "aurora:item-setter-keywords",
-		"body" : [
-			"<set name=\"keywords\">$0</set>"
-		]
-	},
-	"aurora:item-setter-enhancement" : {
-		"prefix" : "aurora:item-setter-enhancement",
-		"body" : [
-			"<set name=\"enhancement\">${1}</set>"
 		]
 	},
 	"aurora:element-class-feature" : {

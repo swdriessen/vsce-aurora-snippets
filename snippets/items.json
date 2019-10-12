@@ -30,6 +30,197 @@
 			"\t</setters>",
 			"</element>"
 		]
+	},
+
+
+	"aurora:element-magic-item" : {
+		"prefix" : "aurora:element-magic-item",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Wondrous Items|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"type\">${9|Wondrous Item|}</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-blessing" : {
+		"prefix" : "aurora:element-magic-item-blessing",
+		"body" : [
+			"<element name=\"Blessing of ${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_BLESSING_OF_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Supernatural Gifts|}</set>",
+			"\t\t<set name=\"type\">Blessing</set>",
+			"\t\t<set name=\"slot\">gift</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-charm" : {
+		"prefix" : "aurora:element-magic-item-charm",
+		"body" : [
+			"<element name=\"Charm of ${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_CHARM_OF_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Supernatural Gifts|}</set>",
+			"\t\t<set name=\"type\">Charm</set>",
+			"\t\t<set name=\"slot\">gift</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-boon" : {
+		"prefix" : "aurora:element-magic-item-boon",
+		"body" : [
+			"<element name=\"Boon of ${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_BOON_OF_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Supernatural Gifts|}</set>",
+			"\t\t<set name=\"type\">Epic Boon</set>",
+			"\t\t<set name=\"slot\">gift</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	
+
+	"aurora:element-magic-item-armor" : {
+		"prefix" : "aurora:element-magic-item-armor",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Magic Armor|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\" override=\"${8|false,true|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"type\" addition=\"light, medium, or heavy\">Armor</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t\t<set name=\"armor\">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>",
+			"\t\t<set name=\"name-format\">${1:name} {{parent}}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-armor-light" : {
+		"prefix" : "aurora:element-magic-item-armor-light",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Magic Armor|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\" override=\"${8|false,true|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"type\" addition=\"light\">Armor</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t\t<set name=\"armor\">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>",
+			"\t\t<set name=\"name-format\">${1:name} {{parent}}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-armor-medium" : {
+		"prefix" : "aurora:element-magic-item-armor-medium",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Magic Armor|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\" override=\"${8|false,true|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"type\" addition=\"medium\">Armor</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t\t<set name=\"armor\">ID_INTERNAL_ARMOR_GROUP_MEDIUM</set>",
+			"\t\t<set name=\"name-format\">${1:name} {{parent}}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-armor-heavy" : {
+		"prefix" : "aurora:element-magic-item-armor-heavy",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Magic Armor|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\" override=\"${8|false,true|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"type\" addition=\"heavy\">Armor</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t\t<set name=\"armor\">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>",
+			"\t\t<set name=\"name-format\">${1:name} {{parent}}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-armor-shield" : {
+		"prefix" : "aurora:element-magic-item-armor-shield",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_SHIELD_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Magic Armor|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\" override=\"${8|false,true|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"type\" addition=\"shield\">Armor</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t\t<set name=\"armor\">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+
+
+	"aurora:item-setter-attunable" : {
+		"prefix" : "aurora:item-setter-attunable",
+		"body" : [
+			"<set name=\"attunement\">true</set>"
+		]
+	},
+	"aurora:item-setter-attunable-addition" : {
+		"prefix" : "aurora:item-setter-attunable-addition",
+		"body" : [
+			"<set name=\"attunement\" addition=\"${by a wizard}\">true</set>"
+		]
+	},
+	"aurora:item-setter-keywords" : {
+		"prefix" : "aurora:item-setter-keywords",
+		"body" : [
+			"<set name=\"keywords\">$0</set>"
+		]
+	},
+	"aurora:item-setter-enhancement" : {
+		"prefix" : "aurora:item-setter-enhancement",
+		"body" : [
+			"<set name=\"enhancement\">${1}</set>"
+		]
 	}
 }
 
