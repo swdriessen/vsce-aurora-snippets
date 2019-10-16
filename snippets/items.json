@@ -216,6 +216,12 @@
 			"<set name=\"keywords\">$0</set>"
 		]
 	},
+	"aurora:item-setter-stackable" : {
+		"prefix" : "aurora:item-setter-stackable",
+		"body" : [
+			"<set name=\"stackable\">true</set>"
+		]
+	},
 	"aurora:item-setter-enhancement" : {
 		"prefix" : "aurora:item-setter-enhancement",
 		"body" : [
