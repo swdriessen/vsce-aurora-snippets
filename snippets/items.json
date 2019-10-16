@@ -197,6 +197,66 @@
 		]
 	},
 
+	"aurora:element-magic-item-staff" : {
+		"prefix" : "aurora:element-magic-item-staff",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Staffs|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"4\">4 lb.</set>",
+			"\t\t<set name=\"slot\">onehand</set>",
+			"\t\t<set name=\"weapon\">Quarterstaff</set>",
+			"\t\t<set name=\"type\">Staff</set>",
+			"\t\t<set name=\"attunement\" addition=\"by a spellcaster\">true</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t\t<set name=\"enhancement\">${11|1,2,3|}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-ring" : {
+		"prefix" : "aurora:element-magic-item-ring",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Rings|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"slot\">ring</set>",
+			"\t\t<set name=\"type\">Ring</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
+	"aurora:element-magic-item-wand" : {
+		"prefix" : "aurora:element-magic-item-wand",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Wands|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"slot\">onehand</set>",
+			"\t\t<set name=\"type\">Wand</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
 
 	"aurora:item-setter-attunable" : {
 		"prefix" : "aurora:item-setter-attunable",
