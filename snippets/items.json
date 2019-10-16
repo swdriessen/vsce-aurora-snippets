@@ -257,6 +257,25 @@
 			"</element>"
 		]
 	},
+	"aurora:element-magic-item-rod" : {
+		"prefix" : "aurora:element-magic-item-rod",
+		"body" : [
+			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<p class=\"indent\">$0</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"category\">${6|Rods|}</set>",
+			"\t\t<set name=\"cost\" currency=\"${7|gp,sp,cp,ep,pp|}\">0</set>",
+			"\t\t<set name=\"weight\" lb=\"0\">0 lb.</set>",
+			"\t\t<set name=\"slot\">onehand</set>",
+			"\t\t<set name=\"type\">Rod</set>",
+			"\t\t<set name=\"rarity\">${10|Common,Uncommon,Rare,Very Rare,Legendary,Artifact,Unique|}</set>",
+			"\t</setters>",
+			"</element>"
+		]
+	},
 
 	"aurora:item-setter-attunement" : {
 		"prefix" : "aurora:item-setter-attunement",
