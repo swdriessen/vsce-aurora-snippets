@@ -258,16 +258,16 @@
 		]
 	},
 
-	"aurora:item-setter-attunable" : {
-		"prefix" : "aurora:item-setter-attunable",
+	"aurora:item-setter-attunement" : {
+		"prefix" : "aurora:item-setter-attunement",
 		"body" : [
 			"<set name=\"attunement\">true</set>"
 		]
 	},
-	"aurora:item-setter-attunable-addition" : {
-		"prefix" : "aurora:item-setter-attunable-addition",
+	"aurora:item-setter-attunement-addition" : {
+		"prefix" : "aurora:item-setter-attunement-addition",
 		"body" : [
-			"<set name=\"attunement\" addition=\"${by a wizard}\">true</set>"
+			"<set name=\"attunement\" addition=\"${1:by a spellcaster}\">true</set>"
 		]
 	},
 	"aurora:item-setter-keywords" : {
