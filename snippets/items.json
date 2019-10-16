@@ -104,7 +104,7 @@
 	"aurora:element-magic-item-armor" : {
 		"prefix" : "aurora:element-magic-item-armor",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t\t<p class=\"indent\">$0</p>",
@@ -124,7 +124,7 @@
 	"aurora:element-magic-item-armor-light" : {
 		"prefix" : "aurora:element-magic-item-armor-light",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t</description>",
@@ -143,7 +143,7 @@
 	"aurora:element-magic-item-armor-medium" : {
 		"prefix" : "aurora:element-magic-item-armor-medium",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t</description>",
@@ -162,7 +162,7 @@
 	"aurora:element-magic-item-armor-heavy" : {
 		"prefix" : "aurora:element-magic-item-armor-heavy",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_ARMOR_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t</description>",
@@ -181,7 +181,7 @@
 	"aurora:element-magic-item-armor-shield" : {
 		"prefix" : "aurora:element-magic-item-armor-shield",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_SHIELD_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_SHIELD_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t</description>",
@@ -200,7 +200,7 @@
 	"aurora:element-magic-item-staff" : {
 		"prefix" : "aurora:element-magic-item-staff",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t\t<p class=\"indent\">$0</p>",
@@ -222,7 +222,7 @@
 	"aurora:element-magic-item-ring" : {
 		"prefix" : "aurora:element-magic-item-ring",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t\t<p class=\"indent\">$0</p>",
@@ -241,7 +241,7 @@
 	"aurora:element-magic-item-wand" : {
 		"prefix" : "aurora:element-magic-item-wand",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t\t<p class=\"indent\">$0</p>",
@@ -260,7 +260,7 @@
 	"aurora:element-magic-item-rod" : {
 		"prefix" : "aurora:element-magic-item-rod",
 		"body" : [
-			"<element name=\"=${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Magic Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_MAGIC_ITEM_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t\t<p class=\"indent\">$0</p>",
