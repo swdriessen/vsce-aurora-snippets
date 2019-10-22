@@ -88,10 +88,24 @@
 			"</equipment>"
 		]
 	},
+	"aurora:p-element" : {
+		"prefix" : "aurora:p-element",
+		"body" : [
+			"<p element=\"${1:id}\" />"
+		]
+	},
 	"aurora:div-element" : {
 		"prefix" : "aurora:div-element",
 		"body" : [
 			"<div element=\"${1:id}\" />"
+		]
+	},
+	"aurora:div-reference" : {
+		"prefix" : "aurora:div-reference",
+		"body" : [
+			"<div class=\"reference\" />",
+			"\t<div element=\"${1:id}\" />",
+			"<div/>"
 		]
 	},
 	"aurora:spellcasting" : {
