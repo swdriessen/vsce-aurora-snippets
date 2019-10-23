@@ -103,9 +103,9 @@
 	"aurora:div-reference" : {
 		"prefix" : "aurora:div-reference",
 		"body" : [
-			"<div class=\"reference\" />",
+			"<div class=\"reference\">",
 			"\t<div element=\"${1:id}\" />",
-			"<div/>"
+			"</div>"
 		]
 	},
 	"aurora:spellcasting" : {
