@@ -374,6 +374,12 @@
 			"<p class=\"indent\"><strong><em>${1:feature}.</em></strong> ${2:description}</p>"
 		]
 	},
+	"aurora:p-higher-level" : {
+		"prefix" : "aurora:p-higher-level",
+		"body" : [
+			"<p class=\"indent\"><strong><em>At Higher Levels.</em></strong> ${2:description}</p>"
+		]
+	},
 	"aurora:h4" : {
 		"prefix" : "aurora:h4",
 		"body" : [
