@@ -207,6 +207,39 @@
 			"\t<p><strong>Spell attack modifier</strong> = your proficiency bonus + your ${1|Intelligence,Wisdom,Charisma|} modifier</p>",
 			"</center>"
 		]
+	},
+	"aurora:element-domain-spells" : {
+		"prefix" : "aurora:element-domain-spells",
+		"body" : [
+			"<element name=\"Domain Spells\" type=\"Archetype Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_ARCHETYPE_FEATURE_${1:name}_DOMAIN_SPELLS\">",
+			"\t<description>",
+			"\t\t<p>You gain domain spells at the cleric levels listed in the ${1:name} Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>",
+			"\t\t<h5>${1:name} Domain Spells</h5>",
+			"\t\t<table>",
+			"\t\t\t<thead>",
+			"\t\t\t\t<tr><td>Cleric Level</td><td>Spells</td></tr>",
+			"\t\t\t</thead>",			 
+			"\t\t\t<tr><td>1st</td><td><em>xxxxx1, xxxxx2</em></td></tr>",
+			"\t\t\t<tr><td>3rd</td><td><em>xxxxx3, xxxxx4</em></td></tr>",
+			"\t\t\t<tr><td>5th</td><td><em>xxxxx5, xxxxx6</em></td></tr>",
+			"\t\t\t<tr><td>7th</td><td><em>xxxxx7, xxxxx8</em></td></tr>",
+			"\t\t\t<tr><td>9th</td><td><em>xxxxx9, xxxxx0</em></td></tr>",
+			"\t\t</table>",
+			"\t</description>",
+			"\t<sheet display=\"false\"/>",
+			"\t<rules>",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx1\" level=\"1\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx2\" level=\"1\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx3\" level=\"3\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx4\" level=\"3\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx5\" level=\"5\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx6\" level=\"5\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx7\" level=\"7\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx8\" level=\"7\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx9\" level=\"9\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t\t<grant type=\"Spell\" id=\"ID_PHB_SPELL_xxxxxx0\" level=\"9\" spellcasting=\"Cleric\" prepared=\"true\" />",
+			"\t</rules>",
+			"</element>"
+		]
 	}
 }
-
