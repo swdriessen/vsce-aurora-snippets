@@ -207,6 +207,14 @@
 			"<stat name=\"${1:name}\" value=\"${2:value}\" bonus=\"${3:base}\" />"
 		]
 	},
+	"aurora:stat:dc" : {
+		"prefix" : "aurora:stat:dc",
+		"body" : [
+			"<stat name=\"${1:name}:dc\" value=\"8\" />",
+			"<stat name=\"${1:name}:dc\" value=\"proficiency\" />",
+			"<stat name=\"${1:name}:dc\" value=\"${1|strength:modifier,dexterity:modifier,constitution:modifier,intelligence:modifier,wisdom:modifier,charisma:modifier|}\" />"
+		]
+	},
 	"aurora:level" : {
 		"prefix" : "aurora:level",
 		"body" : [
