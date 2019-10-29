@@ -212,7 +212,7 @@
 		"body" : [
 			"<stat name=\"${1:name}:dc\" value=\"8\" />",
 			"<stat name=\"${1:name}:dc\" value=\"proficiency\" />",
-			"<stat name=\"${1:name}:dc\" value=\"${1|strength:modifier,dexterity:modifier,constitution:modifier,intelligence:modifier,wisdom:modifier,charisma:modifier|}\" />"
+			"<stat name=\"${1:name}:dc\" value=\"${2|strength:modifier,dexterity:modifier,constitution:modifier,intelligence:modifier,wisdom:modifier,charisma:modifier|}\" />"
 		]
 	},
 	"aurora:level" : {
