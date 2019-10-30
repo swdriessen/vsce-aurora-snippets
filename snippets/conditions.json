@@ -2,7 +2,7 @@
 	"aurora:grant-condition-resistance-bludgeoning" : {
 		"prefix" : "aurora:grant-condition-resistance-bludgeoning",
 		"body" : [
-			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONIN\" />"
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING\" />"
 		]
 	},
 	"aurora:grant-condition-resistance-piercing" : {
