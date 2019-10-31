@@ -260,7 +260,7 @@
 			"\t\t\t<tr><td>5th</td><td><em>xxxxx9, xxxxx0</em></td></tr>",
 			"\t\t</table>",
 			"\t</description>",
-			"\t<sheet display=\"false\" />",
+			"\t<sheet display=\"false\">",
 			"\t\t<description>${1:name} lets you choose from an expanded list of spells when you learn a warlock spell.</description>",
 			"\t</sheet>",
 			"\t<spellcasting name=\"Warlock\" extend=\"true\">",
