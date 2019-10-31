@@ -222,7 +222,7 @@
 		"prefix" : "aurora:stat:min1",
 		"body" : [
 			"<stat name=\"${1:name}\" value=\"1\" bonus=\"${3:base}\" />",
-			"<stat name=\"${1:name}\" value=\"${2:value}\" bonus=\"${3:base}\" />"
+			"<stat name=\"${1:name}\" value=\"${2|strength:modifier,dexterity:modifier,constitution:modifier,intelligence:modifier,wisdom:modifier,charisma:modifier|}\" bonus=\"${3:base}\" />"
 		]
 	},
 	"aurora:stat:dc" : {
@@ -231,6 +231,12 @@
 			"<stat name=\"${1:name}:dc\" value=\"8\" />",
 			"<stat name=\"${1:name}:dc\" value=\"proficiency\" />",
 			"<stat name=\"${1:name}:dc\" value=\"${2|strength:modifier,dexterity:modifier,constitution:modifier,intelligence:modifier,wisdom:modifier,charisma:modifier|}\" />"
+		]
+	},
+	"aurora:ability:mod" : {
+		"prefix" : "aurora:ability:mod",
+		"body" : [
+			"${1|strength:modifier,dexterity:modifier,constitution:modifier,intelligence:modifier,wisdom:modifier,charisma:modifier|}"
 		]
 	},
 	"aurora:level" : {
