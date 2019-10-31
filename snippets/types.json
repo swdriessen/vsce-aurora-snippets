@@ -241,5 +241,41 @@
 			"\t</rules>",
 			"</element>"
 		]
+	},
+	"aurora:element-expanded-spells" : {
+		"prefix" : "aurora:element-expanded-spells",
+		"body" : [
+			"<element name=\"Expanded Spell List\" type=\"Archetype Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_ARCHETYPE_FEATURE_${1:name}_Expanded_Spell_List\">",
+			"\t<description>",
+			"\t\t<p>${1:name} lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>",
+			"\t\t<h5>${1:name} EXPANDED SPELLS</h5>",
+			"\t\t<table>",
+			"\t\t\t<thead>",
+			"\t\t\t\t<tr><td>Spell Level</td><td>Spells</td></tr>",
+			"\t\t\t</thead>",			 
+			"\t\t\t<tr><td>1st</td><td><em>xxxxx1, xxxxx2</em></td></tr>",
+			"\t\t\t<tr><td>2nd</td><td><em>xxxxx3, xxxxx4</em></td></tr>",
+			"\t\t\t<tr><td>3rd</td><td><em>xxxxx5, xxxxx6</em></td></tr>",
+			"\t\t\t<tr><td>4th</td><td><em>xxxxx7, xxxxx8</em></td></tr>",
+			"\t\t\t<tr><td>5th</td><td><em>xxxxx9, xxxxx0</em></td></tr>",
+			"\t\t</table>",
+			"\t</description>",
+			"\t<sheet display=\"false\" />",
+			"\t\t<description>${1:name} lets you choose from an expanded list of spells when you learn a warlock spell.</description>",
+			"\t</sheet>",
+			"\t<spellcasting name=\"Warlock\" extend=\"true\">",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx1</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx2</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx3</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx4</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx5</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx6</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx7</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx8</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx9</extend>",
+			"\t\t<extend>ID_PHB_SPELL_xxxxx0</extend>",
+			"\t</spellcasting>",
+			"</element>"
+		]
 	}
 }

@@ -148,6 +148,24 @@
 			"usage=\"${usage}\""
 		]
 	},
+	"aurora:usage-short" : {
+		"prefix" : "aurora:usage-short",
+		"body" : [
+			"usage=\"1/Short Rest\""
+		]
+	},
+	"aurora:usage-long" : {
+		"prefix" : "aurora:usage-long",
+		"body" : [
+			"usage=\"1/Long Rest\""
+		]
+	},
+	"aurora:usage-cd" : {
+		"prefix" : "aurora:usage-cd",
+		"body" : [
+			"usage=\"Channel Divinity\""
+		]
+	},
 	"aurora:element-rules" : {
 		"prefix" : "aurora:element-rules",
 		"body" : [
