@@ -159,6 +159,20 @@
 			"</element>"
 		]
 	},
+	"aurora:element-eldritch-invocation" : {
+		"prefix" : "aurora:element-eldritch-invocation",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Class Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_CLASS_FEATURE_${1:name}\">",
+			"\t<supports>Eldritch Invocation</supports>",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description></description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
 	"aurora:element-archetype-feature" : {
 		"prefix" : "aurora:element-archetype-feature",
 		"body" : [
@@ -196,6 +210,22 @@
 			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
 			"\t\t<grant type=\"Archetype Feature\" id=\"ID____\" level=\"1\" />",
 			"\t</rules>",
+			"</element>"
+		]
+	},
+
+
+	
+	"aurora:element-racial-trait" : {
+		"prefix" : "aurora:element-racial-trait",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Racial Trait\" source=\"${2:source}\" id=\"ID_${3:author_source}_RACIAL_TRAIT_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description></description>",
+			"\t</sheet>",
 			"</element>"
 		]
 	},

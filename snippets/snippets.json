@@ -151,13 +151,13 @@
 	"aurora:usage-short" : {
 		"prefix" : "aurora:usage-short",
 		"body" : [
-			"usage=\"1/Short Rest\""
+			"usage=\"${1:1}/Short Rest\""
 		]
 	},
 	"aurora:usage-long" : {
 		"prefix" : "aurora:usage-long",
 		"body" : [
-			"usage=\"1/Long Rest\""
+			"usage=\"${1:1}/Long Rest\""
 		]
 	},
 	"aurora:usage-cd" : {
@@ -412,6 +412,12 @@
 			"<p class=\"indent\"><strong><em>At Higher Levels.</em></strong> ${2:description}</p>"
 		]
 	},
+	"aurora:p-prerequites" : {
+		"prefix" : "aurora:p-prerequites",
+		"body" : [
+			"<p><em>Prerequisite: ${2:prerequites}</em></p>"
+		]
+	},
 	"aurora:h4" : {
 		"prefix" : "aurora:h4",
 		"body" : [
@@ -437,6 +443,18 @@
 		"prefix" : "aurora:element-supports",
 		"body" : [
 			"<supports>$0</supports>"
+		]
+	},
+	"aurora:element-requirements" : {
+		"prefix" : "aurora:element-requirements",
+		"body" : [
+			"<requirements>$0</requirements>"
+		]
+	},
+	"aurora:element-prerequisite" : {
+		"prefix" : "aurora:element-prerequisite",
+		"body" : [
+			"<prerequisite>$0</prerequisite>"
 		]
 	},
 	"aurora:element-supports-archetype" : {
