@@ -12,6 +12,16 @@
 			"\t</sheet>",
 			"</element>"
 		]
+	},
+	"aurora:specific-ranger-favorite-humanoid" : {
+		"prefix" : "aurora:specific-ranger-favored-humanoid",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Class Feature\" source=\"${2:source}\" id=\"ID_${2:author_source}_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_${1:name}\">",
+			"\t<supports>Humanoid Favored Enemy</supports>",
+			"\t<description>",
+			"\t\t<p>${description}</p>",
+			"\t</description>",
+			"</element>"
+		]
 	}
 }
-
