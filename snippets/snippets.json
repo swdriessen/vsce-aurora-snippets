@@ -62,7 +62,7 @@
 	"aurora:element" : {
 		"prefix" : "aurora:element",
 		"body" : [
-			"<element name=\"${1:name}\" type=\"${2:type}\" source=\"${3:source}\" id=\"ID_${3:source}_${2:type}_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"${2:type}\" source=\"${3:source}\" id=\"ID_${4:author_source}_${2:type}_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>${5:description}</p>",
 			"\t</description>",
@@ -194,6 +194,24 @@
 			"<grant type=\"${1:type}\" id=\"${2:id}\" />"
 		]
 	},
+	"aurora:grant-size-medium" : {
+		"prefix" : "aurora:grant-size-medium",
+		"body" : [
+			"<grant type=\"Size\" id=\"ID_SIZE_MEDIUM\" />"
+		]
+	},
+	"aurora:grant-size-small" : {
+		"prefix" : "aurora:grant-size-small",
+		"body" : [
+			"<grant type=\"Size\" id=\"ID_SIZE_SMALL\" />"
+		]
+	},
+	"aurora:grant-vision-darkvision" : {
+		"prefix" : "aurora:grant-vision-darkvision",
+		"body" : [
+			"<grant type=\"Vision\" id=\"ID_VISION_DARKVISION\" />"
+		]
+	},
 	"aurora:grant-class-feature" : {
 		"prefix" : "aurora:grant-class-feature",
 		"body" : [
@@ -216,6 +234,12 @@
 		"prefix" : "aurora:stat",
 		"body" : [
 			"<stat name=\"${1:name}\" value=\"${2:value}\" />"
+		]
+	},
+	"aurora:stat:innate-speed" : {
+		"prefix" : "aurora:stat",
+		"body" : [
+			"<stat name=\"innate speed\" value=\"${1|30,25|}\" bonus=\"base\" />"
 		]
 	},
 	"aurora:stat:min1" : {
@@ -461,6 +485,18 @@
 		"prefix" : "aurora:element-supports-archetype",
 		"body" : [
 			"<supports>${1|Primal Path,Bard College,Divine Domain,Druid Circle,Martial Archetype,Monastic Tradition,Sacred Oath,Ranger Archetype,Roguish Archetype,Sorcerous Origin,Otherworldly Patron,Arcane Tradition|}</supports>"
+		]
+	},
+	"aurora:grant-language-common" : {
+		"prefix" : "aurora:grant-language-common",
+		"body" : [
+			"<grant type=\"Language\" id=\"ID_LANGUAGE_COMMON\" />"
+		]
+	},
+	"aurora:grant-language" : {
+		"prefix" : "aurora:grant-language",
+		"body" : [
+			"<grant type=\"Language\" id=\"$0\" />"
 		]
 	}
 }

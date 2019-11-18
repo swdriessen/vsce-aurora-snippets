@@ -216,6 +216,37 @@
 
 
 	
+	"aurora:element-race" : {
+		"prefix" : "aurora:element-race",
+		"body" : [
+			"<element name=\"${1:name}\" type=\"Race\" source=\"${2:source}\" id=\"ID_${3:author_source}_RACE_${1:name}\">",
+			"\t<description>",
+			"\t\t<p>$0</p>",
+			"\t\t<h4>HEADING</h4>",
+			"\t\t<p></p>",
+			"\t\t<p class=\"indent\"></p>",
+			"\t\t<h4>HEADING</h4>",
+			"\t\t<p></p>",
+			"\t\t<p class=\"indent\"></p>",
+			"\t\t<h4>${1:name} Traits</h4>",
+			"\t\t<p></p>",
+			"\t\t<p><strong><em>Ability Score Increase.</em></strong> _______</p>",
+			"\t\t<p><strong><em>Age.</em></strong> _______</p>",
+			"\t\t<p><strong><em>Alignement.</em></strong> _______</p>",
+			"\t\t<p><strong><em>Size.</em></strong> _______</p>",
+			"\t\t<p><strong><em>Speed.</em></strong> _______</p>",
+			"\t\t<p><strong><em>RACIAL_TRAIT.</em></strong> _______</p>",
+			"\t\t<p><strong><em>RACIAL_TRAIT.</em></strong> _______</p>",
+			"\t\t<p><strong><em>Languages.</em></strong> _______</p>",
+			"\t</description>",
+			"\t<sheet display=\"false\" />",
+			"\t<rules>",
+			"\t\t<grant type=\"Racial Trait\" id=\"ID____\" />",
+			"\t\t<grant type=\"Racial Trait\" id=\"ID____\" />",
+			"\t</rules>",
+			"</element>"
+		]
+	},
 	"aurora:element-racial-trait" : {
 		"prefix" : "aurora:element-racial-trait",
 		"body" : [
