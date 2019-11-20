@@ -484,7 +484,7 @@
 	"aurora:element-supports-archetype" : {
 		"prefix" : "aurora:element-supports-archetype",
 		"body" : [
-			"<supports>${1|Primal Path,Bard College,Divine Domain,Druid Circle,Martial Archetype,Monastic Tradition,Sacred Oath,Ranger Archetype,Roguish Archetype,Sorcerous Origin,Otherworldly Patron,Arcane Tradition|}</supports>"
+			"<supports>${1|Primal Path,Bard College,Divine Domain,Druid Circle,Martial Archetype,Monastic Tradition,Sacred Oath,Ranger Archetype,Roguish Archetype,Sorcerous Origin,Otherworldly Patron,Arcane Tradition,Artificer Specialist|}</supports>"
 		]
 	},
 	"aurora:grant-language-common" : {
