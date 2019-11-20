@@ -236,6 +236,42 @@
 			"<stat name=\"${1:name}\" value=\"${2:value}\" />"
 		]
 	},
+	"aurora:stat:strength" : {
+		"prefix" : "aurora:stat:strength",
+		"body" : [
+			"<stat name=\"strength\" value=\"${1:2}\" />"
+		]
+	},
+	"aurora:stat:dexterity" : {
+		"prefix" : "aurora:stat:dexterity",
+		"body" : [
+			"<stat name=\"dexterity\" value=\"${1:2}\" />"
+		]
+	},
+	"aurora:stat:constitution" : {
+		"prefix" : "aurora:stat:constitution",
+		"body" : [
+			"<stat name=\"constitution\" value=\"${1:2}\" />"
+		]
+	},
+	"aurora:stat:intelligence" : {
+		"prefix" : "aurora:stat:intelligence",
+		"body" : [
+			"<stat name=\"intelligence\" value=\"${1:2}\" />"
+		]
+	},
+	"aurora:stat:wisdom" : {
+		"prefix" : "aurora:stat:wisdom",
+		"body" : [
+			"<stat name=\"wisdom\" value=\"${1:2}\" />"
+		]
+	},
+	"aurora:stat:charisma" : {
+		"prefix" : "aurora:stat:charisma",
+		"body" : [
+			"<stat name=\"charisma\" value=\"${1:2}\" />"
+		]
+	},
 	"aurora:stat:innate-speed" : {
 		"prefix" : "aurora:stat",
 		"body" : [
