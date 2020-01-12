@@ -80,6 +80,12 @@
 			"</sheet>"
 		]
 	},
+	"aurora:sheet-false" : {
+		"prefix" : "aurora:sheet-false",
+		"body" : [
+			"<sheet display=\"false\" />"
+		]
+	},
 	"aurora:element-equipment" : {
 		"prefix" : "aurora:element-equipment",
 		"body" : [
@@ -228,6 +234,24 @@
 		"prefix" : "aurora:select",
 		"body" : [
 			"<select type=\"${1:type}\" name=\"${2:name}\" supports=\"${3:supports}\" />"
+		]
+	},
+	"aurora:select-language" : {
+		"prefix" : "aurora:select-language",
+		"body" : [
+			"<select type=\"Language\" name=\"Language, $0\" supports=\"Standard||Exotic\" />"
+		]
+	},
+	"aurora:select-skill-proficiency" : {
+		"prefix" : "aurora:select-skill-proficiency",
+		"body" : [
+			"<select type=\"Proficiency\" name=\"Skill Proficiency, ${1:name}\" supports=\"$0\" />"
+		]
+	},
+	"aurora:select-tool-proficiency" : {
+		"prefix" : "aurora:select-tool-proficiency",
+		"body" : [
+			"<select type=\"Proficiency\" name=\"Tool Proficiency, ${1:name}\" supports=\"$0\" />"
 		]
 	},
 	"aurora:stat" : {

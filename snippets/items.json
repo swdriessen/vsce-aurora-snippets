@@ -2,7 +2,7 @@
 	"aurora:element-item" : {
 		"prefix" : "aurora:element-item",
 		"body" : [
-			"<element name=\"${1:name}\" type=\"Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_ITEM_GEAR_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Item\" source=\"${2:source}\" id=\"ID_${3:source_abbreviation}_ITEM_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t</description>",
