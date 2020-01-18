@@ -469,6 +469,12 @@
 			"</table>"
 		]
 	},
+	"aurora:setter-hd" : {
+		"prefix" : "aurora:setter-hd",
+		"body" : [
+			"<set name=\"hd\">${1|d4,d6,d8,d10,d12|}</set>"
+		]
+	},
 	"aurora:setters-names" : {
 		"prefix" : "aurora:setters-names",
 		"body" : [

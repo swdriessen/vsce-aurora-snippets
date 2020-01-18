@@ -17,7 +17,7 @@
 			"\t\t<set name=\"third-party\">${14|false,true|}</set>",
 			"\t\t<set name=\"homebrew\">${15|false,true|}</set>",
 			"\t\t<set name=\"league\">${16|false,true|}</set>",
-			"\t\t<set name=\"release\">${17:20190521}</set>",
+			"\t\t<set name=\"release\">${17:20200118}</set>",
 			"\t</setters>",
 			"</element>"
 		]
@@ -203,7 +203,7 @@
 			"\t\t<div element=\"ID____\" />",
 			"\t\t<div element=\"ID____\" />",
 			"\t</description>",
-			"\t<sheet>",
+			"\t<sheet display=\"false\">",
 			"\t\t<description></description>",
 			"\t</sheet>",
 			"\t<rules>",
